@@ -10,8 +10,6 @@ Graduation Project
 ##Android App
 ![img](/art/app.jpg "")
 
-
 ##Contact
-email£ºtemoa_yui@163.com<p>
-weibo£º[Tem0a_](http://weibo.com/lailaizuiaiyiyi/profile?rightmod=1&wvr=6&mod=personinfo)<p>
-»¶Ó­½»Á÷Ñ§Ï°
+email: temoa_yui@163.com<p>
+weibo: [Tem0a_](http://weibo.com/lailaizuiaiyiyi/profile?rightmod=1&wvr=6&mod=personinfo)<p>
