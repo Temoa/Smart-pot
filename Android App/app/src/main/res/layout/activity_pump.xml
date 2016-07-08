@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/flower1"/>
+
+    <ImageView
+        android:id="@+id/iv_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_water_off"/>
+
+    <TextView
+        android:id="@+id/tv_waterBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/shuiliang"
+        android:drawableStart="@drawable/shuiliang"
+        android:text="水箱"
+        android:textColor="@color/ColorText"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/tv_waterBox_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_waterBox"
+        android:layout_marginLeft="6dp"
+        android:text="水量充足"
+        android:textColor="@color/ColorText"
+        android:textSize="21sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_moisture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/tv_waterBox_num"
+        android:layout_marginTop="32dp"
+        android:drawableLeft="@drawable/ic_shidu"
+        android:drawableStart="@drawable/ic_shidu"
+        android:text="土壤湿度"
+        android:textColor="@color/ColorText"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:id="@+id/tv_moisture_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_moisture"
+        android:text="24"
+        android:textColor="@color/ColorText"
+        android:textSize="64sp"/>
+
+    <ImageView
+        android:id="@+id/iv_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_moisture_num"
+        android:layout_toEndOf="@+id/tv_moisture_num"
+        android:layout_toRightOf="@+id/tv_moisture_num"
+        android:src="@drawable/ic_percent"/>
+</RelativeLayout>
