@@ -1,0 +1,2 @@
+# Smart-pot
+Graduation Project
