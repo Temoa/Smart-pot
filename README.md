@@ -11,7 +11,7 @@ Graduation Project
 ![img](/art/app.jpg "")
 
 
-##联系方式
+##Contact
 email：temoa_yui@163.com<p>
 weibo：[Tem0a_](http://weibo.com/lailaizuiaiyiyi/profile?rightmod=1&wvr=6&mod=personinfo)<p>
 欢迎交流学习
