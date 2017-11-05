@@ -9,7 +9,7 @@
 
 ## Android App
 
-![img](art/app.jpg "")
+![img](art/app.jpg)
 
 ## Contact
 
